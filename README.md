@@ -1,6 +1,6 @@
 # Watermelon Theme #
 
-![Watermelon Theme](http://i.imgur.com/VtO1J4e.png?1)
+![Watermelon Theme](http://i.imgur.com/F4avSpb.png)
 
 ## Project Description ##
 
