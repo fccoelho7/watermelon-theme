@@ -9,7 +9,6 @@ get_header(); ?>
 	<div id="primary">
 		<main id="main-content" class="site-main" role="main">
 			<?php
-				// Start the Loop.
 				while ( have_posts() ) : the_post();
 
 					get_template_part( 'content', get_post_format() );

@@ -60,16 +60,6 @@
 			transform: translate3d(-50%, -50%, 0);	
 }
 
-// -- columns
-%column {
-	float: left;
-	margin-left: perc($colMargin, $container);
-
-	&:first-child {
-		margin-left: 0;
-	}
-}
-
 .clear {
 	clear: both;
 }

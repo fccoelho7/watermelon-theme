@@ -6,6 +6,11 @@ endif;
 
 get_header(); ?>
 
+	<main id="content" tabindex="-1" role="main">
 
+		
 
-<?php get_footer(); ?>
+	</main>
+
+<?php
+get_footer();

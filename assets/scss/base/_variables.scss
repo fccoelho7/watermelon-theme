@@ -1,24 +1,26 @@
 // ----------------------------------------------------------------------------
 // Variables > Grid
 // ----------------------------------------------------------------------------
-$container 			: 1170px;
-$mobile 			: 480px;
-$tablet 			: 768px;
-$desktop 			: 1024px;
-$content            : 600px;
-$sidebar            : 200px;
-$colWidth 			: 70px;
-$colMargin 			: 30px;
+$container: 1170px;
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+$content: 600px;
+$sidebar: 200px;
 
 // ----------------------------------------------------------------------------
 // Variables > Colors
 // ----------------------------------------------------------------------------
-
+$colorInitial: #fff !default;
+$colorPrimary: #9b4dca !default;
+$colorSecondary: #606c76 !default;
+$colorTertiary: #f4f5f6 !default;
+$colorQuaternary: #d1d1d1 !default;
 
 // ----------------------------------------------------------------------------
 // Variables > Fonts
 // ----------------------------------------------------------------------------
-$fontPrimary		: "intro_bookregular";
+$fontPrimary		: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $fontPrimaryBold	: false;
 $fontSecondary		: false;
 $fontSecondaryBold	: false;

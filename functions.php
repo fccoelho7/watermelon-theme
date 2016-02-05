@@ -118,8 +118,8 @@ function theme_enqueue_scripts() {
 	// jQuery.
 	wp_enqueue_script( 'jquery' );
 
-	// General scripts.
-	wp_enqueue_script( 'theme-main', $template_url . '/assets/javascript/main.js', array(), null, true );
+	// General Scripts.
+	wp_enqueue_script( 'theme-main', $template_url . '/assets/javascript/main.min.js', array(), null, true );
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_scripts', 1 );

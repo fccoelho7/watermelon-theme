@@ -15,9 +15,20 @@
 @import "base/variables";
 @import "base/helpers";
 @import "base/fonts";
+@import "base/base";
 
 // Elements
-@import "elements/text";
+@import "elements/blockquote";
+@import "elements/button";
+@import "elements/code";
+@import "elements/divider";
+@import "elements/form";
+@import "elements/grid";
+@import "elements/link";
+@import "elements/list";
+@import "elements/spacing";
+@import "elements/table";
+@import "elements/typography";
 
 // Components
 @import "components/card";

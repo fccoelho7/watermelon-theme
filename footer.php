@@ -5,7 +5,9 @@ if ( ! function_exists( 'add_action' ) ) :
 endif;
 ?>
 	
-	
+	<footer id="footer">
+		
+	</footer>
 
 	<?php wp_footer(); ?>
 </body>

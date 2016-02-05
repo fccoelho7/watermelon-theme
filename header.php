@@ -10,13 +10,14 @@ endif;
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,maximum-scale=1.0">
 		<title><?php wp_title(); ?></title>
-		<link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>">
-		<link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/favicon.png?v=1" type="image/x-icon" />
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.png?v=1" type="image/x-icon" />
+		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 		<!--[if lt IE 9]>
-			<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/javascript/support/picturefill.min.js"></script>
-			<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/javascripts/support/html5.min.js"></script>
-			<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/javascripts/support/augment.min.js"></script>
-			<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/javascripts/support/selectivizr.min.js"></script>
+			<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/support/picturefill.min.js"></script>
+			<script src="<?php echo get_template_directory_uri(); ?>/assets/javascripts/support/html5.min.js"></script>
+			<script src="<?php echo get_template_directory_uri(); ?>/assets/javascripts/support/augment.min.js"></script>
+			<script src="<?php echo get_template_directory_uri(); ?>/assets/javascripts/support/selectivizr.min.js"></script>
 		<![endif]-->
 		<?php wp_head(); ?>
 	</head>
@@ -31,3 +32,7 @@ endif;
 		  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<header id="header">
+			
+		</header>

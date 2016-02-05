@@ -16,5 +16,10 @@
 	@if $unit == "%" 	{ @return percentage($size); }	
 }
  
-@function perc 	($target, $context) 	{ @return flex($target, $context, "%"); }
-@function em 	($target, $context:$fontSizeDefault) 	{ @return flex($target, $context, "em"); }
+@function perc($target, $context) {
+	@return flex($target, $context, "%");
+}
+
+@function em($target, $context:$fontSizeDefault) {
+	@return flex($target, $context, "em");
+}

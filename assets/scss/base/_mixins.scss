@@ -4,36 +4,3 @@
 	::-moz-placeholder 			{ @content; }
 	:-ms-input-placeholder 		{ @content; }
 }
-
-@mixin list(
-		$_listClass 	: box,
-		$_boxNumberLine : 4,
-		$_boxWrap 		: $container,
-		$_boxWidth 		: 277px,
-		$_boxMargin 	: $colMargin
-	) {
-
-	.list-#{$_listClass} > * {
-		margin-bottom: $_boxMargin;
-		width: 100%;
-
-		@media ( min-width: $tablet ) and ( max-width: $desktop - 1 ) {
-			margin-right: perc( $_boxMargin, $tablet );
-			width: perc( ( $tablet / 2 - $_boxMargin / 2 ), $tablet );
-
-			&:nth-child(2n) {
-				margin-right: 0;
-			}
-		}
-
-		@media ( min-width: $desktop ) {
-			margin-left: perc( $_boxMargin, $_boxWrap );
-			width: perc( $_boxWidth, $_boxWrap );
-
-			&:nth-child(#{$_boxNumberLine}n+1) {
-				clear: both;
-				margin-left: 0;
-			}
-		}
-	}
-}
