@@ -8,7 +8,10 @@ get_header(); ?>
 
 	<main id="content" tabindex="-1" role="main">
 
-		
+		<div class="home-welcome-message">
+			<h1>Hello World!</h1>
+			<h4>Welcome to Starter Theme!</h4>
+		</div>
 
 	</main>
 
