@@ -11,6 +11,7 @@ get_header(); ?>
 		<div class="home-welcome-message">
 			<h1>Hello World!</h1>
 			<h4>Welcome to <span class="highlight">Watermelon</span> Theme!</h4>
+			<button class="button">Teste</button>
 		</div>
 
 	</main>
