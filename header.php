@@ -10,7 +10,7 @@ endif;
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,maximum-scale=1.0">
 		<title><?php wp_title(); ?></title>
-		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.png?v=1" type="image/x-icon" />
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" type="image/x-icon" />
 		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 		<!--[if lt IE 9]>

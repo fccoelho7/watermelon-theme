@@ -1,2 +1,2 @@
-# Starter Theme
-Boilerplate theme for WordPress.
+# Watermelon Theme
+My own boilerplate theme for WordPress.
