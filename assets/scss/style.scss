@@ -1,0 +1,28 @@
+/*!
+	Theme Name: Starter Theme
+	Theme URI: http://fcarvalho.me/
+	Author: Fabio Carvalho
+	Author URI: http://fcarvalho.me/
+	Description: My own starter theme for WordPress.
+	Version: 1.0.0
+*/
+
+
+// Base
+@import "base/normalize";
+@import "base/functions";
+@import "base/mixins";
+@import "base/variables";
+@import "base/helpers";
+@import "base/fonts";
+
+// Elements
+@import "elements/text";
+
+// Components
+@import "components/card";
+
+// Layouts
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/home";
