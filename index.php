@@ -9,9 +9,9 @@ get_header(); ?>
 	<main id="content" tabindex="-1" role="main">
 
 		<div class="home-welcome-message">
-			<h1>Hello World!</h1>
-			<h4>Welcome to <span class="highlight">Watermelon</span> Theme!</h4>
-			<button class="button">Teste</button>
+			<h1>Hello World</h1>
+			<h4>Welcome to <span class="highlight">Watermelon</span> Theme</h4>
+			<button class="button">Enjoy</button>
 		</div>
 
 	</main>
