@@ -10,7 +10,7 @@ get_header(); ?>
 
 		<div class="home-welcome-message">
 			<h1>Hello World!</h1>
-			<h4>Welcome to Starter Theme!</h4>
+			<h4>Welcome to <span class="highlight">Watermelon</span> Theme!</h4>
 		</div>
 
 	</main>
