@@ -12,17 +12,24 @@ Send the folder "watermelon" to the default themes folder from WordPress `wp-con
 
 ## References ##
 
-* [HTML5shiv](https://github.com/aFarkas/html5shiv)
-* [SASS](http://sass-lang.com/)
-* [Grunt.js](http://gruntjs.com/)
-* [FitVids](https://github.com/davatron5000/FitVids.js)
+* [Augment](https://olivernn.github.io/augment.js/)
+* [bxSlider](http://bxslider.com/)
+* [Chosen](https://harvesthq.github.io/chosen/)
 * [EditorConfig](http://editorconfig.org/)
+* [FitVids](https://github.com/davatron5000/FitVids.js)
+* [Grunt.js](http://gruntjs.com/)
+* [HTML5shiv](https://github.com/aFarkas/html5shiv)
+* [iChecker](http://icheck.fronteed.com/)
+* [Milligram](https://milligram.github.io/)
+* [Picturefill](https://scottjehl.github.io/picturefill/)
+* [SASS](http://sass-lang.com/)
+* [Selectivizr](http://selectivizr.com/)
 
 ## Bugs and Sugestions ##
 
 The Watermelon Theme is an **Open Source** project. Anyone can (and should) help us to improve it.
 
-Report bugs or do suggestions using the [Issues/Project Forum](https://github.com/fccoelho7/Watermelon-Theme/issues)
+Report bugs or do suggestions using the [Issues](https://github.com/fccoelho7/Watermelon-Theme/issues)
 
 ## Contribute to the Project ##
 
