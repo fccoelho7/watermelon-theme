@@ -1,3 +1,5 @@
+// Functions
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
 @function remove-unit($number) {
 	$unit: unit($number);
 	$one: 1;

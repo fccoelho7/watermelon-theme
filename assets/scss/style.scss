@@ -7,8 +7,8 @@
 	Version: 1.0.0
 */
 
-
 // Base
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
 @import "base/normalize";
 @import "base/functions";
 @import "base/mixins";
@@ -18,6 +18,7 @@
 @import "base/base";
 
 // Elements
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
 @import "elements/blockquote";
 @import "elements/button";
 @import "elements/code";
@@ -31,10 +32,12 @@
 @import "elements/typography";
 
 // Components
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
 @import "components/content";
 @import "components/card";
 
 // Layouts
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
 @import "layouts/header";
 @import "layouts/footer";
 @import "layouts/home";
