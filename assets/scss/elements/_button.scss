@@ -1,0 +1,78 @@
+// Button
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+	background-color: $colorPrimary;
+	border: 0.1rem solid $colorPrimary;
+	border-radius: 0.4rem;
+	color: $colorInitial;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.1rem;
+	font-weight: 700;
+	height: 3.8rem;
+	letter-spacing: 0.1rem;
+	line-height: 3.8rem;
+	padding: 0 3rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+	&:hover,
+	&:focus {
+		background-color: $colorSecondary;
+		border-color: $colorSecondary;
+		color: $colorInitial;
+		outline: 0;
+	}
+	&.button-disabled,
+	&[disabled] {
+		opacity: 0.5;
+		cursor: default;
+		&:hover,
+		&:focus {
+			background-color: $colorPrimary;
+			border-color: $colorPrimary;
+		}
+	}
+	&.button-outline {
+		color: $colorPrimary;
+		background-color: transparent;
+		&:hover,
+		&:focus {
+			color: $colorSecondary;
+			background-color: transparent;
+			border-color: $colorSecondary;
+		}
+		&.button-disabled,
+		&[disabled] {
+			&:hover,
+			&:focus {
+				color: $colorPrimary;
+				border-color: inherit;
+			}
+		}
+	}
+	&.button-clear {
+		color: $colorPrimary;
+		background-color: transparent;
+		border-color: transparent;
+		&:hover,
+		&:focus {
+			color: $colorSecondary;
+			background-color: transparent;
+			border-color: transparent;
+		}
+		&.button-disabled,
+		&[disabled] {
+			&:hover,
+			&:focus {
+				color: $colorPrimary;
+			}
+		}
+	}
+}
