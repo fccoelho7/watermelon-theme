@@ -57,8 +57,11 @@ function my_theme_register_required_plugins() {
 		),
 		array(
 			'name'        => 'WordPress SEO by Yoast',
-			'slug'        => 'wordpress-seo',
-			'is_callable' => 'wpseo_init',
+			'slug'        => 'wordpress-seo'
+		),
+		array(
+			'name'        => 'WP Awesome Login',
+			'slug'        => 'wp-awesome-login'
 		),
 	);
 
