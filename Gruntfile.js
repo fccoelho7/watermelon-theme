@@ -11,8 +11,8 @@ module.exports = function( grunt ) {
 
 		// setting folder templates
 		dirs: {
-			js: 'assets/javascript',
-			sass: 'assets/scss',
+			js: 'assets/javascripts',
+			sass: 'assets/stylesheets',
 			images: 'assets/images',
 			fonts: 'assets/fonts'
 		},

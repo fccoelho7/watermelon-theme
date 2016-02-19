@@ -4,7 +4,7 @@
 // .container is main centered wrapper with a max width of 1120rem (1120px)
 .container {
 	margin: 0 auto;
-	max-width: 112rem;
+	max-width: em($container);
 	padding: 0 2rem;
 	position: relative;
 	width: 100%;
@@ -148,7 +148,7 @@
 }
 
 // Larger than mobile screen
-@media (min-width: 40rem) {
+@media (min-width: em($tablet)) {
 	.row {
 		flex-direction: row;
 		margin-left: -1rem;

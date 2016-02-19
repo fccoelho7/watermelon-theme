@@ -22,12 +22,20 @@ input[type='submit'] {
 	text-decoration: none;
 	text-transform: uppercase;
 	white-space: nowrap;
+
+	-webkit-transition: all .3s;
+		-ms-transition: all .3s;
+			transition: all .3s;
 	&:hover,
 	&:focus {
 		background-color: $colorSecondary;
 		border-color: $colorSecondary;
 		color: $colorInitial;
 		outline: 0;
+
+		-webkit-transition: all .3s;
+			-ms-transition: all .3s;
+				transition: all .3s;
 	}
 	&.button-disabled,
 	&[disabled] {
