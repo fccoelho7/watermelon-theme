@@ -1,3 +1,9 @@
+<?php
+// Avoid that files are directly loaded
+if ( ! function_exists( 'add_action' ) ) :
+	exit(0);
+endif;
+?>
 
 <header class="page-header">
 	<h1 class="page-title">No results found. :(</h1>

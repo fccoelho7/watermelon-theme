@@ -36,5 +36,41 @@ endif;
 		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<header id="header">
-			
+			<div class="container">
+
+				<?php if ( is_home() ) : ?>
+					<h1 class="site-title">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+							<?php bloginfo( 'name' ); ?>
+						</a>
+					</h1>
+					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+				<?php else : ?>
+					<div class="site-title h1">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+							<?php bloginfo( 'name' ); ?>
+						</a>
+					</div>
+					<div class="site-description h2">
+						<?php bloginfo( 'description' ); ?>
+					</div>
+				<?php endif; ?>
+
+				<nav id="main-navigation" class="navigation navigation-main" data-component="navigation">
+					<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'main-menu',
+								'container'      => '',
+								'menu_class'     => 'nav navbar-nav',
+								'fallback_cb'    => '',
+							)
+						);
+					?>
+				</nav>
+
+			</div>
 		</header>
+
+		<main id="content" tabindex="-1" role="main">
+			<div class="container">
